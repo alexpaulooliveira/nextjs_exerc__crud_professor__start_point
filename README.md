@@ -74,7 +74,7 @@ Este exercício consiste em implementar um CRUD completo (Create, Read, Update, 
 
 ---
 
-### 1.1. Página Principal - Grid de Professores
+### 3.1. Página Principal - Grid de Professores
 
 A **página principal** será a única página disponível no sistema, contendo um **grid** com a lista de todos os professores. Cada registro no grid deve exibir os seguintes campos:
 - **Nome**
@@ -93,7 +93,7 @@ A **página principal** será a única página disponível no sistema, contendo 
 
 ---
 
-### 1.2. Tela de Inserção de Novo Professor
+### 3.2. Tela de Inserção de Novo Professor
 
 A tela de inserção permitirá adicionar um novo professor ao sistema. Deve conter os seguintes campos de entrada:
 - **Nome**
@@ -111,7 +111,7 @@ A tela de inserção permitirá adicionar um novo professor ao sistema. Deve con
 
 ---
 
-### 1.3. Tela de Edição de Professor
+### 3.3. Tela de Edição de Professor
 
 A tela de edição permitirá modificar os dados de um professor existente. Ela será semelhante à tela de inserção, mas com os dados preenchidos previamente. Deve conter os seguintes campos:
 - **Nome**
@@ -125,3 +125,9 @@ A tela de edição permitirá modificar os dados de um professor existente. Ela 
 - **Botão Retornar**: Logo abaixo do botão de atualização, haverá um botão azul com o texto **"Retornar"**, que redirecionará o usuário para a página principal com o grid.
 - **Botão Deletar**: Também haverá um botão vermelho com o texto **"Deletar Professor"**, que excluirá o professor do sistema e redirecionará para a página principal.
 - O formulário de edição será exibido dentro de um **formulário branco com bordas arredondadas**, e o fundo por trás do formulário será cinza claro.
+
+### 3.4. Resultado Final
+
+![CRUD](./img/crud.png)
+![Novo](./img/new.png)
+![Editar](./img/edit.png)
